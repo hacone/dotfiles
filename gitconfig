@@ -3,3 +3,9 @@
 	name = Yuta Suzuki
 [core]
 	editor = vim
+[alias]
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	sw = switch

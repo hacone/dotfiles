@@ -31,6 +31,18 @@ set foldlevelstart=99
 set noswapfile
 filetype plugin indent on
 
+noremap j gj
+noremap k gk
+noremap <S-h> 0
+noremap <S-l> $
+nnoremap p ]p
+nnoremap P ]P
+noremap <Left> <Nop>
+noremap <Down> <Nop>
+noremap <Up> <Nop>
+noremap <Right> <Nop>
+nnoremap <ESC><ESC> :nohlsearch<CR>
+
 " Installation of Jetpack:
 " curl -fLo ~/.vim/pack/jetpack/opt/vim-jetpack/plugin/jetpack.vim \
 " --create-dirs https://raw.githubusercontent.com/tani/vim-jetpack/master/plugin/jetpack.vim
